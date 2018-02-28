@@ -1,0 +1,15 @@
+===Database converter
+
+== Table structure for table converter
+
+|------
+|Column|Type|Null|Default
+|------
+|f_input|varchar(128)|No|
+|c_input|varchar(128)|No|
+|output|varchar(128)|No|
+== Dumping data for table converter
+
+|59|15|15 C equals 59 F
+|54|12|54 F equals 12 C
+|113|45|45 C equals 113 F
