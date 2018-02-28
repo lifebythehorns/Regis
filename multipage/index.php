@@ -3,12 +3,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>phpzag.com : Demo Create Bootstrap Carousel Slider with Thumbnails using PHP & MySQL</title>
+<title>Photo Carousel</title>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 <link href="css/style.css" rel="stylesheet">
 <?php include('container.php');?>
 <div class="container">	
-	<h2>Create Bootstrap Carousel Slider with Thumbnails using PHP & MySQL</h2>		
+	<h2> <center>Photo Carousel<c></h2>		
 	
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">	  
 		<ol class="carousel-indicators">
