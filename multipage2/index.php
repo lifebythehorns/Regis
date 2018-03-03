@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>phpzag.com : Demo Bootstrap Tabbed Slider Carousel with jQuery, PHP & MySQL</title>
+<title>Regis University: Multi-Responsive App utilizing jQuery, PHP & MySQL</title>
 <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
@@ -10,7 +10,7 @@
 <link href="css/style.css" rel="stylesheet">
 <?php include('container.php');?>
 <div class="container">
-	<h2>Create Bootstrap Tabbed Slider Carousel with jQuery, PHP & MySQL</h2>
+	<h2> <center> Regis University: Multi-Responsive App utilizing jQuery, PHP & MySQL</h2>
 	<br>
 	<?php include_once("slider.php"); ?>
     <div id="tabSlider" class="carousel slide" data-ride="carousel">
