@@ -10,10 +10,10 @@
 <link href="css/style.css" rel="stylesheet">
 <?php include('container.php');?>
 <div class="container">
-	<h2> <center> Regis University: Multi-Responsive App utilizing jQuery, PHP & MySQL</h2>
+	<h2> <center> An Interactive Photo Album, Starring Roxie!</h2>
 	<br>
 	<?php include_once("slider.php"); ?>
-    <div id="tabSlider" class="carousel slide" data-ride="carousel">
+    <center> <div id="tabSlider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <?php echo $sliderHtml; ?>            
         </div>
@@ -21,8 +21,4 @@
              <?php echo $buttonHtml; ?>		
         </ul>
     </div>
-    <div style="margin:50px 0px 0px 0px;">
-		<a class="btn btn-default read-more" style="background:#3399ff;color:white" href="http://www.phpzag.com/bootstrap-tabbed-slider-carousel-with-jquery-php-mysql/">Back to Tutorial</a>		
-	</div>	
-</div>
-<?php include('footer.php');?>
+   <?php include('footer.php');?>
