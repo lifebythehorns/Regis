@@ -9,11 +9,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="http://www.phpzag.com" class="navbar-brand">PHPZAG.COM</a>
+          <a href="https://www.regis.edu/" class="navbar-brand">Regis University</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="http://www.phpzag.com">Home</a></li>
+            <li class="active"><a>  Multi-Responsive App Utilizing jQuery, PHP & MySQL</a></li>
            
           </ul>
          

@@ -1,49 +1,30 @@
-(function(window, $, undefined) {
-  var conf = {
-    center: true,
-    backgroundControl: false
-  };
-  var cache = {
-    $carouselContainer: $(".thumbnails-carousel").parent(),
-    $thumbnailsLi: $(".thumbnails-carousel li"),
-    $controls: $(".thumbnails-carousel").parent().find(".carousel-control")
-  };
-  function init() {
-    cache.$carouselContainer
-      .find("ol.carousel-indicators")
-      .addClass("indicators-fix");
-    cache.$thumbnailsLi.first().addClass("active-thumbnail");
-    if (!conf.backgroundControl) {
-      cache.$carouselContainer
-        .find(".carousel-control")
-        .addClass("controls-background-reset");
-    } else {
-      cache.$controls.height(
-        cache.$carouselContainer.find(".carousel-inner").height()
-      );
-    }
-    if (conf.center) {
-      cache.$thumbnailsLi.wrapAll("<div class='center clearfix'></div>");
-    }
-  }
+$(document).ready( function() {
+    $('#tabSlider').carousel({
+    	interval:   4000
+	});	
+	var clickEvent = false;
+	$('#tabSlider').on('click', '.nav a', function() {
+			clickEvent = true;
+			$('.nav li').removeClass('active');
+			$(this).parent().addClass('active');		
+	}).on('slid.bs.carousel', function(e) {
+		if(!clickEvent) {
+			var count = $('.nav').children().length -1;
+			var current = $('.nav li.active');
+			current.removeClass('active').next().addClass('active');
+			var id = parseInt(current.data('slide-to'));
+			if(count == id) {
+				$('.nav li').first().addClass('active');	
+			}
+		}
+		clickEvent = false;
+	});
+});
 
-  function refreshOpacities(domEl) {
-    cache.$thumbnailsLi.removeClass("active-thumbnail");
-    cache.$thumbnailsLi.eq($(domEl).index()).addClass("active-thumbnail");
-  }
-  function bindUiActions() {
-    cache.$carouselContainer.on("slide.bs.carousel", function(e) {
-      refreshOpacities(e.relatedTarget);
-    });
-    cache.$thumbnailsLi.click(function() {
-      cache.$carouselContainer.carousel($(this).index());
-    });
-  }
-  $.fn.thumbnailsCarousel = function(options) {
-    conf = $.extend(conf, options);
-    init();
-    bindUiActions();
-    return this;
-  };
-})(window, jQuery);
-$(".thumbnails-carousel").thumbnailsCarousel();
+$(document).ready(function() {
+    var f = document.getElementById('Foo');
+    setInterval(function() {
+        f.style.display = (f.style.display == 'none' ? '' : 'none');
+    }, 1000); 
+    
+});

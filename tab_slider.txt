@@ -1,0 +1,28 @@
+===Database multipage
+
+== Table structure for table tab_slider
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|page|varchar(255)|No|
+|content|text|No|
+== Dumping data for table tab_slider
+
+|1|Oh, you like dogs?| &lt;img src=&quot;img/roxie1.jpg&quot;&gt;
+ &lt;div class=&quot;carousel-caption&quot;&gt; 
+ &lt;p&gt;This is my partner in crime, Roxie.&lt;/p&gt;
+ &lt;/div&gt;
+|2|You have work to do?|&lt;img src=&quot;img/roxie2.jpg&quot;&gt;
+ &lt;div class=&quot;carousel-caption&quot;&gt;
+ &lt;p&gt;Roxie does not care. She demands pets all day, every day.&lt;/p&gt;
+ &lt;/div&gt;
+|3|Do you like snow?| &lt;img src=&quot;img/roxie3.jpg&quot;&gt;
+ &lt;div class=&quot;carousel-caption&quot;&gt;
+ &lt;p&gt;So does she!&lt;/p&gt;
+ &lt;/div&gt;
+|4|Family photo!| &lt;img src=&quot;img/roxie4.jpg&quot;&gt;
+ &lt;div class=&quot;carousel-caption&quot;&gt;
+ &lt;p&gt;One of a thousand!.&lt;/p&gt;
+ &lt;/div&gt;

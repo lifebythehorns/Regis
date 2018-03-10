@@ -1,29 +1,16 @@
 body {
-  padding: 10px; 
+	padding-top: 10px;
 }
-#carousel-example-generic {
-  display: inline-block;
+#tabSlider .nav a small {
+    display: block;
 }
-ul.thumbnails-carousel {
-	padding: 5px 0 0 0;
-	margin: 0;
-	list-style-type: none;
-	text-align: center;
+#tabSlider .nav {
+    background: rgb(206, 202, 202);
 }
-ul.thumbnails-carousel .center {
-	display: inline-block;
+.nav-justified > li > a {
+    border-radius: 0px;
 }
-ul.thumbnails-carousel li {
-	margin-right: 5px;
-	float: left;
-	cursor: pointer;
-}
-.controls-background-reset {
-	background: none !important;
-}
-.active-thumbnail {
-	opacity: 0.4;
-}
-.indicators-fix {
-	bottom: 70px;
-}
+.nav-pills>li[data-slide-to="0"].active a { background-color:  #16a085; }
+.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
+.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+.nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
