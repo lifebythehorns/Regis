@@ -13,11 +13,11 @@ body {
 }
 
 html {
-  background:#f5ebbe
+  background:#00610d
 }
 
 img {
-  border            :1px solid black;
+  border            :px solid black;
   margin-right      :15px;
   -moz-box-shadow   :2px 2px 2px #888;
   -webkit-box-shadow:2px 2px 2px #888;
@@ -34,7 +34,7 @@ li a:hover, .button:hover {
  
 .appname {
   text-align :center;
-  background :#569b5c;
+  background:#00610d;
   color      :rgb(255, 255, 255);
   font-family:helvetica;
   font-size  :20pt;
@@ -51,8 +51,8 @@ li a:hover, .button:hover {
 }
 
 .info {
-  background :lightgreen;
-  color      :blue;
+  background :#00610d;
+  color      :rgb(255, 255, 255);
 	border     :1px solid green;
 	padding    :5px 10px;
   margin-left:40px;

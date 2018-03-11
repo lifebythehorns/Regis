@@ -22,6 +22,8 @@
        "<div class='appname'>$appname$userstr</div>"            .
        "<script src='javascript.js'></script>";
 
+       
+
   if ($loggedin)
   {
     echo "<center> <br ><ul class='menu'>" .
@@ -42,4 +44,5 @@
           "<span class='info'> &#8658; You must be logged in to " .
           "view this page.</span><br><br>");
   }
+  
 ?>
